@@ -76,11 +76,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\inc\charpter1.h" />
+    <ClInclude Include="..\..\inc\charpter.h" />
     <ClInclude Include="..\..\inc\Comm.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\src\charpter1.c" />
+    <ClCompile Include="..\..\src\charpter2.c" />
+    <ClCompile Include="..\..\src\charpter3.c" />
+    <ClCompile Include="..\..\src\charpter4.c" />
     <ClCompile Include="..\..\src\main.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
